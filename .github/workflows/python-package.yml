@@ -40,6 +40,9 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Generate documentation with pdocs
+      run: |
+        pdoc src/person -o docs
   
   release:
     needs: build

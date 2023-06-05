@@ -8,5 +8,6 @@ class Person:
         '''
         Calculates person`s BMI
         '''
-        
+
         return weight / (height * height)
+        
