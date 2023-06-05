@@ -3,7 +3,7 @@ from person.Person import Person
 
 class TestPersonClass:
     
-    def test1(self):
+    def testBMICalculation(self):
         #Arrange
         person = Person(90, 1.80)
 
@@ -14,3 +14,15 @@ class TestPersonClass:
         assert result == 27.777777777777775
 
         pass
+    
+    # def testBMIRange(self):
+    #     #Arrange
+    #     person = Person(90, 1.80)
+
+    #     #Act
+    #     result = person.getPersonBMIRange()
+
+    #     #Assert
+    #     assert result == "Sobrepeso"
+
+    #     pass
