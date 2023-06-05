@@ -5,12 +5,10 @@ class TestBMICalculation:
     
     def test1(self):
         #Arrange
-        person = Person()
-        height = 1.80
-        weight = 90
+        person = Person(90, 1.80)
 
         #Act
-        result = person.calculateBMI(weight, height)
+        result = person.calculateBMI()
 
         #Assert
         assert result == 27.777777777777775
