@@ -1,7 +1,7 @@
 import re
 from person.Person import Person
 
-class TestBMICalculation:
+class TestPersonClass:
     
     def test1(self):
         #Arrange
