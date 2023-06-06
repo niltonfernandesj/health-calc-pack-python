@@ -15,14 +15,14 @@ class TestPersonClass:
 
         pass
     
-    # def testBMIRange(self):
-    #     #Arrange
-    #     person = Person(90, 1.80)
+    def testBMIRange(self):
+        #Arrange
+        person = Person(90, 1.80)
 
-    #     #Act
-    #     result = person.getPersonBMIRange()
+        #Act
+        result = person.getPersonBMIRange()
 
-    #     #Assert
-    #     assert result == "Sobrepeso"
+        #Assert
+        assert result == "Sobrepeso"
 
-    #     pass
+        pass
